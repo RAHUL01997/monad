@@ -28,3 +28,4 @@ contract dynamicBytes{
     function getElement(uint _idx) public view returns(bytes1){
      return temp[_idx];
     }
+}
