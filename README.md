@@ -25,6 +25,10 @@ contract dynamicBytes{
         return temp.length;
     }
 
+    //function stopElement() public{
+         temp.pop();
+    }
+
     function getElement(uint _idx) public view returns(bytes1){
      return temp[_idx];
     }
