@@ -25,7 +25,7 @@ contract dynamicBytes{
         return temp.length;
     }
 
-    //function stopElement() public{
+    function stopElement() public{
          temp.pop();
     }
 
