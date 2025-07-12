@@ -14,7 +14,7 @@ contract dynamicBytes{
         temp = "123abcd45";
     }
 
-    function pushelement() public  {
+    function pushelement() public{
         temp.push("c");
     }
 
